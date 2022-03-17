@@ -1,12 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import { App } from './App';
 import reportWebVitals from './reportWebVitals';
+import 'bootswatch/dist/yeti/bootstrap.min.css';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <App title='React and Typescript' />
   </React.StrictMode>,
   document.getElementById('root')
 );
